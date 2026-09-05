@@ -49,8 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
           { id: 2, name: "Elk Burger", category: "Burger", price: 15, rating: "★ 4.3", image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=500&auto=format&fit=crop&q=60" },
           { id: 3, name: "Classic Burrito", category: "Burrito", price: 11, rating: "★ 4.5", image: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500&auto=format&fit=crop&q=60" },
           { id: 4, name: "Glazed Donuts", category: "Donuts", price: 8, rating: "★ 4.8", image: "https://images.unsplash.com/photo-1527515862127-a4fc05baf7a5?w=500&auto=format&fit=crop&q=60" },
-          { id: 5, name: "Pepperoni Pizza", category: "Pizza", price: 18, rating: "★ 4.6", image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60" }
+          { id: 5, name: "Pepperoni Pizza", category: "Pizza", price: 18, rating: "★ 4.6", image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60" },
+          { id: 6, name: "Chocolate Lava Cake", category: "Desserts", price: 9, rating: "★ 4.9", image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&auto=format&fit=crop&q=60"}
         ];
+      
         renderMenu(allMenuItems, "Burger");
       }
     };
